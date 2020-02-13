@@ -11,6 +11,7 @@ import Time from "./Components/Time/Time";
 import Color from "./Components/Color/Color";
 import Shop from "./Components/Shop/Shop";
 import Basket from "./Components/Shop/Basket"
+import Audio from "./Components/AudioPlayer/AudioPlayer"
 
 
 const App: React.FC = () => {
@@ -27,6 +28,7 @@ const App: React.FC = () => {
             <Route render={() => <Color />} path = '/color'/>
             <Route render={() => <Shop/>} path = '/shop'/>
             <Route render={() =>  <Basket/>} path = '/basket'/>
+            <Route render={() =>  <Audio/>} path = '/audio'/>
         </div>
     </div>
   );
