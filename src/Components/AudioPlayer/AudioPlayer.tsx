@@ -1,26 +1,21 @@
-import React, {useState} from "react";
+import React, {createRef} from "react";
 
 
 const Audio = () => {
 
-    let [inputValue, changeInputValue] = useState('')
+    let inputRef = createRef<HTMLInputElement>();
 
-    let [initialImage, changeImageInWindow] = useState('https://jwinters.ru/wp-content/media/tutorial65_howtodrawpatrick_fromspongebob/p1_.jpg')
-
-    let fileSelected = (e: React.FormEvent<HTMLInputElement>) => {
-        changeInputValue(e.currentTarget.value)
-    }
-
-    let changeImage = () => {
-        changeInputValue('')
-        changeImageInWindow(inputValue)
+    let downloadFileOnClick = () => {
+        debugger
+        if (inputRef.current) {
+            inputRef.current.click()
+        }
     }
 
     return (
         <div className={'Audio'}>
-            <input value={inputValue} onChange={fileSelected}/>
-            <button onClick={changeImage}>Download</button>
-            <img src={initialImage}/>
+            <label><input type={'file'} ref={inputRef} style={{display: 'none'}}/></label>
+            <button onClick={downloadFileOnClick}>Download</button>
         </div>
     )
 };
