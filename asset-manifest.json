@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/shop_mini/static/css/main.9351153c.chunk.css",
+    "main.js": "/shop_mini/static/js/main.2f19cff6.chunk.js",
+    "main.js.map": "/shop_mini/static/js/main.2f19cff6.chunk.js.map",
+    "runtime-main.js": "/shop_mini/static/js/runtime-main.4d818050.js",
+    "runtime-main.js.map": "/shop_mini/static/js/runtime-main.4d818050.js.map",
+    "static/js/2.ce71db1e.chunk.js": "/shop_mini/static/js/2.ce71db1e.chunk.js",
+    "static/js/2.ce71db1e.chunk.js.map": "/shop_mini/static/js/2.ce71db1e.chunk.js.map",
+    "index.html": "/shop_mini/index.html",
+    "precache-manifest.57bbbb7504c3e8a0bd276e15bef8ac1f.js": "/shop_mini/precache-manifest.57bbbb7504c3e8a0bd276e15bef8ac1f.js",
+    "service-worker.js": "/shop_mini/service-worker.js",
+    "static/css/main.9351153c.chunk.css.map": "/shop_mini/static/css/main.9351153c.chunk.css.map",
+    "static/js/2.ce71db1e.chunk.js.LICENSE": "/shop_mini/static/js/2.ce71db1e.chunk.js.LICENSE",
+    "static/media/comandir.mp3": "/shop_mini/static/media/comandir.00dacddc.mp3",
+    "static/media/loader.svg": "/shop_mini/static/media/loader.07a3367d.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4d818050.js",
+    "static/js/2.ce71db1e.chunk.js",
+    "static/css/main.9351153c.chunk.css",
+    "static/js/main.2f19cff6.chunk.js"
+  ]
+}
